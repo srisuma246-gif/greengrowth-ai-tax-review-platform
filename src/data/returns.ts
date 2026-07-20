@@ -1,0 +1,51 @@
+import type { ReviewQueueReturn } from '@/features/dashboard/types'
+export const reviewQueueReturns: ReviewQueueReturn[] = [
+  {
+    id: 'RET-1042',
+    clientName: 'Acme Logistics',
+    priority: 'high',
+    status: 'pending',
+    aiConfidence: 91,
+    assignedTo: { name: 'Sarah Chen', initials: 'SC' },
+  },
+  {
+    id: 'RET-1041',
+    clientName: 'Northstar Foods',
+    priority: 'medium',
+    status: 'in-review',
+    aiConfidence: 87,
+    assignedTo: { name: 'Marcus Lee', initials: 'ML' },
+  },
+  {
+    id: 'RET-1040',
+    clientName: 'Cedar Ridge Group',
+    priority: 'high',
+    status: 'blocked',
+    aiConfidence: 72,
+    assignedTo: { name: 'Sarah Chen', initials: 'SC' },
+  },
+  {
+    id: 'RET-1039',
+    clientName: 'Horizon Medical',
+    priority: 'low',
+    status: 'pending',
+    aiConfidence: 95,
+    assignedTo: { name: 'Priya Shah', initials: 'PS' },
+  },
+  {
+    id: 'RET-1038',
+    clientName: 'Atlas Manufacturing',
+    priority: 'medium',
+    status: 'in-review',
+    aiConfidence: 82,
+    assignedTo: { name: 'Marcus Lee', initials: 'ML' },
+  },
+  {
+    id: 'RET-1037',
+    clientName: 'Willow & Co.',
+    priority: 'low',
+    status: 'completed',
+    aiConfidence: 98,
+    assignedTo: { name: 'Priya Shah', initials: 'PS' },
+  },
+]
